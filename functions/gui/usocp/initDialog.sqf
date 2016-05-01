@@ -60,7 +60,7 @@ lbClear _comboBox;
 "Zugführer"
 ];
 
-_pfad = "ADV_gear\loadouts\usocp\";
+_pfad = "functions\loadouts\usocp\";
 
 lbSetData [7377, 0, format["%1fn_usocp_crew.sqf",_pfad]];
 lbSetData [7377, 1, format["%1fn_usocp_eng.sqf",_pfad]];

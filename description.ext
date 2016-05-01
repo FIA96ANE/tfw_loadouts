@@ -20,45 +20,15 @@ overviewPicture = "";
 enableDebugConsole = 1;
 
 /* ================ Interfaces für Skripts =============== */
-#include "ADV_gear\gui\bwtrop\bwtropLoadoutDialog.hpp"
-#include "ADV_gear\gui\bwfleck\bwfleckLoadoutDialog.hpp"
-#include "ADV_gear\gui\uk\ukLoadoutDialog.hpp"
-#include "ADV_gear\gui\usocp\usocpLoadoutDialog.hpp"
-#include "ADV_gear\gui\ussf\ussfLoadoutDialog.hpp"
-#include "ADV_gear\gui\usmarines\usmarinesLoadoutDialog.hpp"
+#include "functions\gui\bwtrop\bwtropLoadoutDialog.hpp"
+#include "functions\gui\bwfleck\bwfleckLoadoutDialog.hpp"
+#include "functions\gui\uk\ukLoadoutDialog.hpp"
+#include "functions\gui\usocp\usocpLoadoutDialog.hpp"
+#include "functions\gui\ussf\ussfLoadoutDialog.hpp"
+#include "functions\gui\usmarines\usmarinesLoadoutDialog.hpp"
 
-/* ================ Parametisierung =============== */
+/* ================ Funktionen =============== */
 class CfgFunctions {
-    class FETT {
-        class curator {
-            class eventHandlers {postInit = 1;};
-            class objPlaced {};
-            class grpPlaced {};
-        };
-    };
-	#include "ADV_gear\CfgFunctions.hpp"
+	#include "functions\CfgFunctions.hpp"
 	#include "param\CfgFunctions.hpp"
 };
-/* ================ Zeus Parameter =============== */
-class Params
-{
-  class CuratorGodMode
-  {
-    title = $STR_A3_MP_ZGM_m11.Altis_Params_CuratorUnlock;
-    values[] = {0,1};
-    texts[] = {$STR_DISABLED,$STR_ENABLED};
-    default = 0;
-  };
-  class CuratorModeratorRights
-  {
-    title = $STR_A3_MP_ZGM_m11.Altis_Params_CuratorModeratorRights;
-    values[] = {0,1,2};
-    texts[] = {
-      $STR_A3_MP_ZGM_m11.Altis_Params_CuratorModeratorRights_0,
-      $STR_A3_MP_ZGM_m11.Altis_Params_CuratorModeratorRights_1,
-      $STR_A3_MP_ZGM_m11.Altis_Params_CuratorModeratorRights_2
-    };
-    default = 1;
-  };
-};
-/* ================ ENDE =============== */

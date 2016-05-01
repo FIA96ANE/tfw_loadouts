@@ -3,7 +3,7 @@ class ADV
 	tag = "ADV";
 	class gear
 	{
-		file = "ADV_gear\gear";
+		file = "functions\gear";
 		class addMagazine {};
 		class applyLoadout {};
 		class chooseLoadout {};
@@ -15,9 +15,14 @@ class ADV
 		class nil {};
 		class playerUnit {};
 	};
+	class server
+	{
+		file = "functions\server";
+		class zeusObjects {};
+	};
 	class loadouts_bwtrop //BW Mod 3-Fleck Loadout
 	{
-		file = "ADV_gear\loadouts\bwtrop";
+		file = "functions\loadouts\bwtrop";
 		class bwtrop_base {};
 		class bwtrop_crew {};
 		class bwtrop_eod {};
@@ -41,7 +46,7 @@ class ADV
 	};
 	class loadouts_bwfleck //BW Mod 5-Fleck Loadout
 	{
-		file = "ADV_gear\loadouts\bwfleck";
+		file = "functions\loadouts\bwfleck";
 		class bwfleck_base {};
 		class bwfleck_crew {};
 		class bwfleck_eod {};
@@ -66,7 +71,7 @@ class ADV
 	};
 	class loadouts_ussf //US Special Forces
 	{
-		file = "ADV_gear\loadouts\ussf";
+		file = "functions\loadouts\ussf";
 		class ussf_eod {};
 		class ussf_gren{};
 		class ussf_grpfhr {};
@@ -81,7 +86,7 @@ class ADV
 	};
 	class loadouts_usocp //US-Army OCP
 	{
-		file = "ADV_gear\loadouts\usocp";
+		file = "functions\loadouts\usocp";
 		class usocp_crew {};
 		class usocp_eng {};
 		class usocp_eod {};
@@ -103,7 +108,7 @@ class ADV
 	};
 	class loadouts_uk //UK
 	{
-		file = "ADV_gear\loadouts\uk";
+		file = "functions\loadouts\uk";
 		class uk_base {};
 		class uk_crew {};
 		class uk_eng {};
@@ -129,9 +134,9 @@ class ADV
 		class uk_schtz_rgw90{};
 		class uk_zgfhr{};
 	};
-	class loadouts_usmarines //US Marines
+	class loadouts_usmarines //US Marines Woodland
 	{
-		file = "ADV_gear\loadouts\usmarines";
+		file = "functions\loadouts\usmarines";
 		class usmarines_base {};
 		class usmarines_corpsman {};
 		class usmarines_crew {};
@@ -163,7 +168,7 @@ class ADV
 	tag = "aeroson";
 	class gearsaving
 	{
-		file = "ADV_gear\gearsaving";
+		file = "functions\gearsaving";
 		class getloadout {};
 		class gearsaving {};
 		class setloadout {};

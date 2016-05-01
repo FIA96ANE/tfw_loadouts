@@ -62,7 +62,7 @@ lbClear _comboBox;
 "Zugführer"
 ];
 
-_pfad = "ADV_gear\loadouts\bwtrop\";
+_pfad = "functions\loadouts\bwtrop\";
 
 lbSetData [7377, 0, format["%1fn_bwtrop_crew.sqf",_pfad]];
 lbSetData [7377, 1, format["%1fn_bwtrop_eod.sqf",_pfad]];

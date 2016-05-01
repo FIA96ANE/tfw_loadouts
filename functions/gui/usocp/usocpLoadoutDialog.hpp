@@ -20,7 +20,7 @@ class usocpLoadoutDialog {
 	movingEnable = true;
 	enableSimulation = true; // does not freeze the game
 	// lade init-Skript
-	onload = "(_this) execVM 'ADV_gear\gui\usocp\initDialog.sqf';";
+	onload = "(_this) execVM 'functions\gui\usocp\initDialog.sqf';";
 
 	controls[] = { 
 		IGUIBack_2200,	
@@ -109,7 +109,7 @@ class usocpLoadoutDialog {
 		y = 8.5 * GUI_GRID_H + GUI_GRID_Y;
 		w = 9 * GUI_GRID_W;
 		h = 1.5 * GUI_GRID_H;
-		action = "[lbData [7377, lbCurSel 7377], lbData[7977, lbCurSel 7977]] execVM 'ADV_gear\gui\usocp\loadout.sqf';";
+		action = "[lbData [7377, lbCurSel 7377], lbData[7977, lbCurSel 7977]] execVM 'functions\gui\usocp\loadout.sqf';";
 	};
 
 	class RscButton_1601: usocpRscButton

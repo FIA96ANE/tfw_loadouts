@@ -66,7 +66,7 @@ lbClear _comboBox;
 "Team Leader"
 ];
 
-_pfad = "ADV_gear\loadouts\usmarines\";
+_pfad = "functions\loadouts\usmarines\";
 
 lbSetData [7377, 0, format["%1fn_usmarines_base.sqf",_pfad]];
 lbSetData [7377, 1, format["%1fn_usmarines_corpsman.sqf",_pfad]];

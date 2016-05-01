@@ -5,22 +5,22 @@
 
 // MACROS
 //--- BW Tropen Loadout
-#define IDC_bwfleckLOADOUT_RSCTEXT_1000	6877
-#define IDC_bwfleckLOADOUT_RSCTEXT_1001	6878
-#define IDC_bwfleckLOADOUT_RSCLISTBOX_1500	7377
-#define IDC_bwfleckLOADOUT_RSCBUTTON_1600	7477
-#define IDC_bwfleckLOADOUT_RSCBUTTON_1601	7478
-#define IDC_bwfleckLOADOUT_RSCFRAME_1800	7677
-#define IDC_bwfleckLOADOUT_RSCCOMBO_2100	7977
-#define IDC_bwfleckLOADOUT_IGUIBACK_2200	8077
+#define IDC_usmarinesLOADOUT_RSCTEXT_1000	6877
+#define IDC_usmarinesLOADOUT_RSCTEXT_1001	6878
+#define IDC_usmarinesLOADOUT_RSCLISTBOX_1500	7377
+#define IDC_usmarinesLOADOUT_RSCBUTTON_1600	7477
+#define IDC_usmarinesLOADOUT_RSCBUTTON_1601	7478
+#define IDC_usmarinesLOADOUT_RSCFRAME_1800	7677
+#define IDC_usmarinesLOADOUT_RSCCOMBO_2100	7977
+#define IDC_usmarinesLOADOUT_IGUIBACK_2200	8077
 
-class bwfleckLoadoutDialog {
+class usmarinesLoadoutDialog {
 
 	idd = 11;
 	movingEnable = true;
 	enableSimulation = true; // does not freeze the game
 	// lade init-Skript
-	onload = "(_this) execVM 'ADV_gear\gui\bwfleck\initDialog.sqf';";
+	onload = "(_this) execVM 'functions\gui\usmarines\initDialog.sqf';";
 
 	controls[] = { 
 		IGUIBack_2200,	
@@ -33,35 +33,35 @@ class bwfleckLoadoutDialog {
 		RscButton_1601
 	};
 
-	class IGUIBack_2200: bwfleckIGUIBack
+	class IGUIBack_2200: usmarinesIGUIBack
 	{
-		idc = IDC_bwfleckLOADOUT_IGUIBACK_2200;
+		idc = IDC_usmarinesLOADOUT_IGUIBACK_2200;
 		x = 0.06 * GUI_GRID_W + GUI_GRID_X;
 		y = 0.99 * GUI_GRID_H + GUI_GRID_Y;
 		w = 40 * GUI_GRID_W;
-		h = 24 * GUI_GRID_H;
+		h = 26.5 * GUI_GRID_H;
 		moving = 1;
 	};
 
-	class RscFrame_1800: bwfleckRscFrame
+	class RscFrame_1800: usmarinesRscFrame
 	{
-		idc = IDC_bwfleckLOADOUT_RSCFRAME_1800;
-		text = "BW Flecktarn Loadout"; //--- ToDo: Localize;
+		idc = IDC_usmarinesLOADOUT_RSCFRAME_1800;
+		text = "US-SF Loadout"; //--- ToDo: Localize;
 		x = 0 * GUI_GRID_W + GUI_GRID_X;
 		y = 0.5 * GUI_GRID_H + GUI_GRID_Y;
 		w = 40 * GUI_GRID_W;
-		h = 24.5 * GUI_GRID_H;
+		h = 26 * GUI_GRID_H;
 		sizeEx = 1 * GUI_GRID_H;
 	};
 
-	class RscListbox_1500: bwfleckRscListbox
+	class RscListbox_1500: usmarinesRscListbox
 	{
-		idc = IDC_bwfleckLOADOUT_RSCLISTBOX_1500;
+		idc = IDC_usmarinesLOADOUT_RSCLISTBOX_1500;
 		text = "Loadouts"; //--- ToDo: Localize;
 		x = 1 * GUI_GRID_W + GUI_GRID_X;
 		y = 3 * GUI_GRID_H + GUI_GRID_Y;
 		w = 16 * GUI_GRID_W;
-		h = 21 * GUI_GRID_H;
+		h = 23.5 * GUI_GRID_H;
 		
 		colorSelectBackground[] = 
 		{
@@ -72,9 +72,9 @@ class bwfleckLoadoutDialog {
 		};
 	};
 
-	class RscText_1000: bwfleckRscText
+	class RscText_1000: usmarinesRscText
 	{
-		idc = IDC_bwfleckLOADOUT_RSCTEXT_1000;
+		idc = IDC_usmarinesLOADOUT_RSCTEXT_1000;
 		text = "Loadouts"; //--- ToDo: Localize;
 		x = 1 * GUI_GRID_W + GUI_GRID_X;
 		y = 1.5 * GUI_GRID_H + GUI_GRID_Y;
@@ -82,18 +82,18 @@ class bwfleckLoadoutDialog {
 		h = 2 * GUI_GRID_H;
 	};
 
-	class RscCombo_2100: bwfleckRscCombo
+	class RscCombo_2100: usmarinesRscCombo
 	{
-		idc = IDC_bwfleckLOADOUT_RSCCOMBO_2100;
+		idc = IDC_usmarinesLOADOUT_RSCCOMBO_2100;
 		x = 18 * GUI_GRID_W + GUI_GRID_X;
 		y = 4.5 * GUI_GRID_H + GUI_GRID_Y;
 		w = 19.5 * GUI_GRID_W;
 		h = 1.5 * GUI_GRID_H;
 	};
 
-	class RscText_1001: bwfleckRscText
+	class RscText_1001: usmarinesRscText
 	{
-		idc = IDC_bwfleckLOADOUT_RSCTEXT_1001;
+		idc = IDC_usmarinesLOADOUT_RSCTEXT_1001;
 		text = "Optik"; //--- ToDo: Localize;
 		x = 18 * GUI_GRID_W + GUI_GRID_X;
 		y = 3 * GUI_GRID_H + GUI_GRID_Y;
@@ -101,20 +101,20 @@ class bwfleckLoadoutDialog {
 		h = 2 * GUI_GRID_H;
 	};
 
-	class RscButton_1600: bwfleckRscButton
+	class RscButton_1600: usmarinesRscButton
 	{
-		idc = IDC_bwfleckLOADOUT_RSCBUTTON_1600;
+		idc = IDC_usmarinesLOADOUT_RSCBUTTON_1600;
 		text = "OK"; //--- ToDo: Localize;
 		x = 18 * GUI_GRID_W + GUI_GRID_X;
 		y = 8.5 * GUI_GRID_H + GUI_GRID_Y;
 		w = 9 * GUI_GRID_W;
 		h = 1.5 * GUI_GRID_H;
-		action = "[lbData [7377, lbCurSel 7377], lbData[7977, lbCurSel 7977]] execVM 'ADV_gear\gui\bwfleck\loadout.sqf';";
+		action = "[lbData [7377, lbCurSel 7377], lbData[7977, lbCurSel 7977]] execVM 'functions\gui\usmarines\loadout.sqf';";
 	};
 
-	class RscButton_1601: bwfleckRscButton
+	class RscButton_1601: usmarinesRscButton
 	{
-		idc = IDC_bwfleckLOADOUT_RSCBUTTON_1601;
+		idc = IDC_usmarinesLOADOUT_RSCBUTTON_1601;
 		text = "Abbrechen"; //--- ToDo: Localize;
 		x = 28.5 * GUI_GRID_W + GUI_GRID_X;
 		y = 8.5 * GUI_GRID_H + GUI_GRID_Y;

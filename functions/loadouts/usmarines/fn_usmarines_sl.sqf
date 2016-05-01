@@ -6,24 +6,24 @@ magazines one for one in _items.
 */
 
 //clothing - (string)
-_uniform = ["PBW_Uniform1_tropen","PBW_Uniform2_tropen","PBW_Uniform1H_tropen","PBW_Uniform3K_tropen","PBW_Uniform4K_tropen"];
-_vest = ["lbt_comms_coy"];
-_headgear = ["BWA3_OpsCore_Tropen_Camera","BWA3_OpsCore_Tropen_Patch","BWA3_OpsCore_Tropen","PBW_Helm3_tropen","rhsusf_opscore_coy_cover_pelt"];
-_backpack = ["B_AssaultPack_rgr","lbt_tl_coy"];
+_uniform = ["rhs_uniform_FROG01_wd"];
+_vest = ["rhsusf_spc_squadleader"];
+_headgear = ["rhsusf_lwh_helmet_marpatwd","rhsusf_lwh_helmet_marpatwd_ess","rhsusf_lwh_helmet_marpatwd_headset"];
+_backpack = ["B_AssaultPack_rgr"];
 _insignium = "";
 _useProfileGoggles = 0;		//If set to 1, goggles from your profile will be used. If set to 0, _goggles will be added (or profile goggles will be removed when _goggles is left empty).
-_goggles = ["rhs_googles_black","rhs_googles_clear","rhs_googles_yellow","rhs_googles_orange","PBW_shemagh_beige",""];
+_goggles = ["rhs_googles_black","rhs_googles_clear","rhs_googles_yellow","rhs_googles_orange",""];
 
 //weapons - primary weapon - (string)
-_primaryweapon = "BWA3_G36_equipped";
+_primaryweapon = "rhs_weap_m4_grip";
 
 //primary weapon items - (array)
-_itemsPrimaryweapon = [""];
+_itemsPrimaryweapon = ["rhsusf_acc_ACOG3_USMC","rhsusf_acc_anpeq15"];
 _silencer = "";		//if silencer is added
 
 //primary weapon ammo (if a primary weapon is given) and how many tracer mags - (integer)
-_primaryweaponAmmo = [10,0];		//first number: Amount of magazines, second number: config index of magazine or classname of magazine type.
-//_additionalAmmo = [0,0]; //additional ammo classes up to 3: _additionalAmmo2 /_additionalAmmo3
+_primaryweaponAmmo = [9,0];		//first number: Amount of magazines, second number: config index of magazine or classname of magazine type.
+_additionalAmmo = [2,"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow"]; //additional ammo classes up to 3: _additionalAmmo2 /_additionalAmmo3
 
 //40mm Grenades - (integer)
 _40mmHeGrenadesAmmo = 0;	
@@ -45,14 +45,14 @@ _M4009Stun = 0;
 _M576Buckshot = 0;
 
 //weapons - handgun - (string)
-_handgun = "BWA3_P8";
+_handgun = "";
 
 //handgun items - (array)
 _itemsHandgun = [""];
 _handgunSilencer = "";		//if silencer is added
 
 //handgun ammo (if a handgun is given) - (integer)
-_handgunAmmo = [3,0];		//first number: Amount of magazines, second number: config index of magazine or classname of magazine type.
+_handgunAmmo = [0,0];		//first number: Amount of magazines, second number: config index of magazine or classname of magazine type.
 
 //weapons - launcher - (string)
 _launcher = "";
@@ -78,19 +78,15 @@ _chemlightGreen = 0;
 _chemlightBlue = 0;
 _IRgrenade = 0;
 _M14TH3 = 0;
-_M8HCWhite = 0;
+_M8HCWhite = 2;
 _M8HCGreen = 0;
 _M8HCPurple = 0;
-_M8HCRed = 0;
-_M8HCYellow = 0;
-_M67Frag = 0;
+_M8HCRed = 1;
+_M8HCYellow = 1;
+_M67Frag = 2;
 _M7A3CS = 0;
 _MK84Stun = 0;
 _MK3A2Conc = 0;
-_DM25White = 2;
-_DM25Orange = 1;
-_DM25Yellow = 2;
-_DM51A1 = 2;
 
 //first aid kits and medi kits- (integer)
 _FirstAidKits = 0;
@@ -100,10 +96,10 @@ _MediKit = 0;		//if set to 1, a MediKit and all FirstAidKits will be added to th
 _itemsUniform = [];
 
 //items added specifically to vest: - (array)
-_itemsVest = ["ACE_DAGR","BWA3_Booniehat_Tropen"];
+_itemsVest = [];
 
 //items added specifically to Backpack: - (array)
-_itemsBackpack = ["dsk_nsv","UK3CB_BAF_Soflam_Laserdesignator"];
+_itemsBackpack = ["rhs_Booniehat_marpatwd","rhsusf_ANPVS_14"];
 
 //linked items (don't put "ItemRadio" in here, as it's set with _equipRadio) - (array)
 _itemsLink = [
@@ -126,26 +122,26 @@ if (missionNamespace getVariable ["ADV_par_isTvT",false]) then {
 //CustomMod items//
 	
 //ACRE radios
-_ACREradios = ["ACRE_PRC343","ACRE_PRC152","ACRE_PRC117F"];	//_this select 0=shortrange radio;_this select 1=leader radio;_this select 2=backpackRadio;
+_ACREradios = ["ACRE_PRC343","ACRE_PRC148"];	//_this select 0=shortrange radio;_this select 1=leader radio;_this select 2=backpackRadio;
 //TFAR items
 _givePersonalRadio = true;
-_givePersonalRadioBW = true;
+_givePersonalRadioBW = false;
 _tfar_microdagr = 0;				//adds the tfar microdagr to set the channels for a rifleman radio
 
 //ACE items (if ACE is running on the server) - (integers)
 _ACE_EarPlugs = 1;
 
 _ACE_atropine = 0;
-_ACE_fieldDressing = 4;
-_ACE_elasticBandage = 2;
-_ACE_quikclot = 2;
+_ACE_fieldDressing = 0;
+_ACE_elasticBandage = 4;
+_ACE_quikclot = 4;
 _ACE_bloodIV = 0;
 _ACE_bloodIV_500 = 0;
 _ACE_bloodIV_250 = 0;
 _ACE_bodyBag = 0;
 _ACE_epinephrine = 0;
 _ACE_morphine = 2;
-_ACE_packingBandage = 1;
+_ACE_packingBandage = 4;
 _ACE_personalAidKit = 0;
 _ACE_plasmaIV = 0;
 _ACE_plasmaIV_500 = 0;
@@ -178,7 +174,7 @@ _ACE_Rangecard = 0;
 _ACE_Vector = 0;
 _ACE_m84 = 0;
 _ACE_HandFlare_Green = 0;
-_ACE_HandFlare_Red = 0;
+_ACE_HandFlare_Red = 1;
 _ACE_HandFlare_White = 0;
 _ACE_HandFlare_Yellow = 0;
 
@@ -191,11 +187,11 @@ _ACE_isPilot = false;
 //Tablet-Items
 _tablet = false;
 _androidDevice = false;
-_microDAGR = false;
+_microDAGR = true;
 _helmetCam = false;
 
 if (isClass (configFile >> "CfgPatches" >> "task_force_radio")) then {
-	_backpack = ["tf_rt1523g_rhs"];
+	//_backpack = ["tf_rt1523g_big_rhs"];
 };
 
 ///// No editing necessary below this line /////

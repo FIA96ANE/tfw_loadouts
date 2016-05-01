@@ -53,7 +53,7 @@ lbClear _comboBox;
 "Zugführer"
 ];
 
-_pfad = "ADV_gear\loadouts\ussf\";
+_pfad = "functions\loadouts\ussf\";
 
 lbSetData [7377, 0, format["%1fn_ussf_eod.sqf",_pfad]];
 lbSetData [7377, 1, format["%1fn_ussf_gren.sqf",_pfad]];

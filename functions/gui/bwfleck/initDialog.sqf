@@ -62,7 +62,7 @@ lbClear _comboBox;
 "Zugführer"
 ];
 
-_pfad = "ADV_gear\loadouts\bwfleck\";
+_pfad = "functions\loadouts\bwfleck\";
 
 lbSetData [7377, 0, format["%1fn_bwfleck_crew.sqf",_pfad]];
 lbSetData [7377, 1, format["%1fn_bwfleck_eod.sqf",_pfad]];

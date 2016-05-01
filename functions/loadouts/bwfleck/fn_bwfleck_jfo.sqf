@@ -103,7 +103,7 @@ _itemsUniform = [];
 _itemsVest = ["ACE_DAGR","PBW_muetze1_fleck"];
 
 //items added specifically to Backpack: - (array)
-_itemsBackpack = ["dsk_nsv","UK3CB_BAF_Soflam_Laserdesignator"];
+_itemsBackpack = ["dsk_nsv","Laserdesignator"];
 
 //linked items (don't put "ItemRadio" in here, as it's set with _equipRadio) - (array)
 _itemsLink = [

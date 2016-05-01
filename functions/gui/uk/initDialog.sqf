@@ -65,7 +65,7 @@ lbClear _comboBox;
 "Zugführer"
 ];
 
-_pfad = "ADV_gear\loadouts\uk\";
+_pfad = "functions\loadouts\uk\";
 
 lbSetData [7377, 0, format["%1fn_uk_crew.sqf",_pfad]];
 lbSetData [7377, 1, format["%1fn_uk_eng.sqf",_pfad]];
