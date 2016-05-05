@@ -15,10 +15,10 @@ _useProfileGoggles = 0;		//If set to 1, goggles from your profile will be used. 
 _goggles = ["rhs_googles_black","rhs_googles_clear","rhs_googles_yellow","rhs_googles_orange","PBW_shemagh_beige",""];
 
 //weapons - primary weapon - (string)
-_primaryweapon = "BWA3_G36_AG_equipped";
+_primaryweapon = "hlc_rifle_G36A1AG36";
 
 //primary weapon items - (array)
-_itemsPrimaryweapon = [""];
+_itemsPrimaryweapon = ["HLC_Optic_G36dualoptic35x2d"];
 _silencer = "";		//if silencer is added
 
 //primary weapon ammo (if a primary weapon is given) and how many tracer mags - (integer)
