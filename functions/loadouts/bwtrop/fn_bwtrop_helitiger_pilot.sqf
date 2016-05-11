@@ -126,7 +126,7 @@ if (missionNamespace getVariable ["ADV_par_isTvT",false]) then {
 //CustomMod items//
 	
 //ACRE radios
-_ACREradios = ["ACRE_PRC343"];	//_this select 0=shortrange radio;_this select 1=leader radio;_this select 2=backpackRadio;
+_ACREradios = ["ACRE_PRC343","ACRE_PRC148","ACRE_PRC152"];	//_this select 0=shortrange radio;_this select 1=leader radio;_this select 2=backpackRadio;
 //TFAR items
 _givePersonalRadio = true;
 _givePersonalRadioBW = true;

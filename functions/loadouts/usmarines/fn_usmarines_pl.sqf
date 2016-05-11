@@ -9,7 +9,7 @@ magazines one for one in _items.
 _uniform = ["rhs_uniform_FROG01_wd"];
 _vest = ["rhsusf_spc_squadleader"];
 _headgear = ["rhsusf_mich_helmet_marpatwd_norotos_arc_headset","rhsusf_mich_helmet_marpatwd_norotos_headset","rhsusf_mich_helmet_marpatwd_alt_headset"];
-_backpack = "";
+_backpack = "tfw_ilbe_wd";
 _insignium = "";
 _useProfileGoggles = 0;		//If set to 1, goggles from your profile will be used. If set to 0, _goggles will be added (or profile goggles will be removed when _goggles is left empty).
 _goggles = ["rhs_googles_black","rhs_googles_clear","rhs_googles_yellow","rhs_googles_orange",""];
@@ -96,7 +96,7 @@ _MediKit = 0;		//if set to 1, a MediKit and all FirstAidKits will be added to th
 _itemsUniform = [];
 
 //items added specifically to vest: - (array)
-_itemsVest = [];
+_itemsVest = ["ACE_DAGR"];
 
 //items added specifically to Backpack: - (array)
 _itemsBackpack = ["rhs_Booniehat_marpatwd","rhsusf_ANPVS_14"];
@@ -122,7 +122,7 @@ if (missionNamespace getVariable ["ADV_par_isTvT",false]) then {
 //CustomMod items//
 	
 //ACRE radios
-_ACREradios = ["ACRE_PRC343","ACRE_PRC148"];	//_this select 0=shortrange radio;_this select 1=leader radio;_this select 2=backpackRadio;
+_ACREradios = ["ACRE_PRC343","ACRE_PRC148","ACRE_PRC117F"];	//_this select 0=shortrange radio;_this select 1=leader radio;_this select 2=backpackRadio;
 //TFAR items
 _givePersonalRadio = true;
 _givePersonalRadioBW = false;
@@ -191,7 +191,7 @@ _microDAGR = false;
 _helmetCam = false;
 
 if (isClass (configFile >> "CfgPatches" >> "task_force_radio")) then {
-	_backpack = ["tfw_ilbe_wd"];
+	//_backpack = ["tfw_ilbe_wd"];
 };
 
 ///// No editing necessary below this line /////

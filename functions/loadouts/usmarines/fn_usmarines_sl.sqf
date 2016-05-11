@@ -96,7 +96,7 @@ _MediKit = 0;		//if set to 1, a MediKit and all FirstAidKits will be added to th
 _itemsUniform = [];
 
 //items added specifically to vest: - (array)
-_itemsVest = [];
+_itemsVest = ["ACE_DAGR"];
 
 //items added specifically to Backpack: - (array)
 _itemsBackpack = ["rhs_Booniehat_marpatwd","rhsusf_ANPVS_14"];
