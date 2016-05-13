@@ -66,7 +66,6 @@ if (isClass (configFile >> "CfgPatches" >> "task_force_radio")) then {
 	};
 } else {
 	if (isClass (configFile >> "CfgPatches" >> "acre_main")) then {
-		waitUntil { ([] call acre_api_fnc_isInitialized) };
 		{_unit addItem _x;} forEach _ACREradios;
 	} else {
 		_unit linkItem "ItemRadio";
