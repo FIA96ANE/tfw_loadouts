@@ -18,7 +18,7 @@ _goggles = ["rhs_googles_black","rhs_googles_clear","rhs_googles_yellow","rhs_go
 _primaryweapon = "rhs_weap_m4a1";
 
 //primary weapon items - (array)
-_itemsPrimaryweapon = ["rhsusf_acc_compm4","RH_peq15_top"];
+_itemsPrimaryweapon = ["rhsusf_acc_compm4","rhsusf_acc_anpeq15side"];
 _silencer = "";		//if silencer is added
 
 //primary weapon ammo (if a primary weapon is given) and how many tracer mags - (integer)

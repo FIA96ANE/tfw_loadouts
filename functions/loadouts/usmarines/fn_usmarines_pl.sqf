@@ -99,7 +99,7 @@ _itemsUniform = [];
 _itemsVest = ["ACE_DAGR"];
 
 //items added specifically to Backpack: - (array)
-_itemsBackpack = ["rhs_Booniehat_marpatwd","rhsusf_ANPVS_14"];
+_itemsBackpack = ["rhs_Booniehat_marpatwd","rhsusf_ANPVS_14","rhs_8point_marpatwd"];
 
 //linked items (don't put "ItemRadio" in here, as it's set with _equipRadio) - (array)
 _itemsLink = [

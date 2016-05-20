@@ -8,7 +8,7 @@ magazines one for one in _items.
 //clothing - (string)
 _uniform = ["rhs_uniform_FROG01_m81"];
 _vest = ["lbt_comms_coy"];
-_headgear = ["rhsusf_mich_bare","rhsusf_mich_bare_alt","rhsusf_mich_bare_norotos_headset","rhsusf_mich_bare_norotos","rhsusf_mich_bare_norotos_alt_headset","rhsusf_mich_bare_norotos_alt","rhsusf_opscore_01_tan","H_HelmetB_light_sand","H_HelmetB_light_snakeskin","rhsusf_opscore_coy_cover_pelt","rhsusf_opscore_coy_cover","rhsusf_opscore_fg","rhsusf_opscore_rg_cover","rhsusf_opscore_rg_cover_pelt"];
+_headgear = ["rhsusf_mich_bare","rhsusf_mich_bare_alt","rhsusf_mich_bare_norotos_headset","rhsusf_mich_bare_norotos","rhsusf_mich_bare_norotos_alt_headset","rhsusf_mich_bare_norotos_alt","rhsusf_opscore_coy_cover_pelt","rhsusf_opscore_fg_pelt","rhsusf_opscore_fg_pelt_cam","rhsusf_opscore_fg_pelt_nsw","rhsusf_opscore_mc_pelt","rhsusf_opscore_mc_pelt_cam","rhsusf_opscore_mc_pelt_nsw","rhsusf_opscore_paint_pelt","rhsusf_opscore_paint_pelt_nsw","rhsusf_opscore_paint_pelt_nsw_cam","rhsusf_opscore_rg_cover_pelt","rhsusf_opscore_ut_pelt","rhsusf_opscore_ut_pelt_cam","rhsusf_opscore_ut_pelt_nsw","rhsusf_opscore_ut_pelt_nsw_cam"];
 _backpack = ["B_AssaultPack_rgr"];
 _insignium = "";
 _useProfileGoggles = 0;		//If set to 1, goggles from your profile will be used. If set to 0, _goggles will be added (or profile goggles will be removed when _goggles is left empty).
@@ -18,7 +18,7 @@ _goggles = ["rhs_googles_black","rhs_googles_clear","rhs_googles_yellow","rhs_go
 _primaryweapon = "rhs_weap_mk18_grip2_KAC";
 
 //primary weapon items - (array)
-_itemsPrimaryweapon = ["rhsusf_acc_SFMB556","rhsusf_acc_anpeq15","RKSL_optic_LDS"];
+_itemsPrimaryweapon = ["rhsusf_acc_SFMB556","rhsusf_acc_anpeq15","rhsusf_acc_SpecterDR"];
 _silencer = "";		//if silencer is added
 
 //primary weapon ammo (if a primary weapon is given) and how many tracer mags - (integer)

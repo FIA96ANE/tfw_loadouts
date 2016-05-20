@@ -7,22 +7,22 @@ magazines one for one in _items.
 
 //clothing - (string)
 _uniform = ["rhs_uniform_FROG01_m81"];
-_vest = ["lbt_weapons_coy"];
-_headgear = ["rhsusf_mich_bare","rhsusf_mich_bare_alt","rhsusf_mich_bare_norotos_headset","rhsusf_mich_bare_norotos","rhsusf_mich_bare_norotos_alt_headset","rhsusf_mich_bare_norotos_alt","rhsusf_opscore_coy_cover_pelt","rhsusf_opscore_fg_pelt","rhsusf_opscore_fg_pelt_cam","rhsusf_opscore_fg_pelt_nsw","rhsusf_opscore_mc_pelt","rhsusf_opscore_mc_pelt_cam","rhsusf_opscore_mc_pelt_nsw","rhsusf_opscore_paint_pelt","rhsusf_opscore_paint_pelt_nsw","rhsusf_opscore_paint_pelt_nsw_cam","rhsusf_opscore_rg_cover_pelt","rhsusf_opscore_ut_pelt","rhsusf_opscore_ut_pelt_cam","rhsusf_opscore_ut_pelt_nsw","rhsusf_opscore_ut_pelt_nsw_cam"];
+_vest = ["lbt_operator_coy"];
+_headgear = ["rhs_Booniehat_m81"];
 _backpack = ["B_AssaultPack_rgr"];
 _insignium = "";
 _useProfileGoggles = 0;		//If set to 1, goggles from your profile will be used. If set to 0, _goggles will be added (or profile goggles will be removed when _goggles is left empty).
 _goggles = ["rhs_googles_black","rhs_googles_clear","rhs_googles_yellow","rhs_googles_orange",""];
 
 //weapons - primary weapon - (string)
-_primaryweapon = "rhs_weap_m4a1_blockII_M203";
+_primaryweapon = "rhs_weap_M107_w";
 
 //primary weapon items - (array)
-_itemsPrimaryweapon = ["rhsusf_acc_SFMB556","rhsusf_acc_anpeq15","rhsusf_acc_SpecterDR_A"];
+_itemsPrimaryweapon = ["rhsusf_acc_premier"];
 _silencer = "";		//if silencer is added
 
 //primary weapon ammo (if a primary weapon is given) and how many tracer mags - (integer)
-_primaryweaponAmmo = [9,0];		//first number: Amount of magazines, second number: config index of magazine or classname of magazine type.
+_primaryweaponAmmo = [11,0];		//first number: Amount of magazines, second number: config index of magazine or classname of magazine type.
 //_additionalAmmo = [0,0]; //additional ammo classes up to 3: _additionalAmmo2 /_additionalAmmo3
 
 //40mm Grenades - (integer)
@@ -39,20 +39,20 @@ _40mmFlareYellow = 0;
 _40mmFlareRed = 0;
 _40mmFlareGreen = 0;
 _40mmFlareIR = 0;
-_M433HEPD = 10;
+_M433HEPD = 0;
 _M441HE = 0;
 _M4009Stun = 0;
 _M576Buckshot = 0;
 
 //weapons - handgun - (string)
-_handgun = "hgun_Pistol_heavy_01_F";
+_handgun = "rhsusf_weap_m9";
 
 //handgun items - (array)
 _itemsHandgun = [""];
 _handgunSilencer = "";		//if silencer is added
 
 //handgun ammo (if a handgun is given) - (integer)
-_handgunAmmo = [4,0];		//first number: Amount of magazines, second number: config index of magazine or classname of magazine type.
+_handgunAmmo = [7,0];		//first number: Amount of magazines, second number: config index of magazine or classname of magazine type.
 
 //weapons - launcher - (string)
 _launcher = "";
@@ -61,7 +61,7 @@ _launcher = "";
 _launcherAmmo = [0,0];		//first number: Amount of magazines, second number: config index of magazine or classname of magazine type.
 
 //binocular - (string)
-_binocular = "";
+_binocular = "ACE_Vector";
 
 //throwables - (integer)
 _grenadeHE = 0;
@@ -160,17 +160,17 @@ _ACE_M26_Clacker = 0;
 _ACE_DeadManSwitch = 0;
 _ACE_DefusalKit = 0;
 _ACE_Cellphone = 0;
-_ACE_MapTools = 0;
+_ACE_MapTools = 1;
 _ACE_CableTie = 2;
 
 _ACE_key = 0;	//0 = no key, 1 = side dependant key, 2 = master key, 3 = lockpick
-_ACE_kestrel = 0;
-_ACE_altimeter = 0;
-_ACE_ATragMX = 0;
+_ACE_kestrel = 1;
+_ACE_altimeter = 1;
+_ACE_ATragMX = 1;
 _ACE_microDAGR = 0;
 _ACE_Flashlight_XL50 = 1;
 _ACE_RangeTable_82mm = 0;
-_ACE_Rangecard = 0;
+_ACE_Rangecard = 1;
 _ACE_Vector = 0;
 _ACE_m84 = 0;
 _ACE_HandFlare_Green = 1;

@@ -8,7 +8,7 @@ magazines one for one in _items.
 //clothing - (string)
 _uniform = ["rhs_uniform_FROG01_m81"];
 _vest = ["lbt_operator_coy"];
-_headgear = ["H_HelmetB_light_snakeskin"];
+_headgear = ["rhsusf_opscore_bk_pelt"];
 _backpack = ["B_AssaultPack_rgr"];
 _insignium = "";
 _useProfileGoggles = 0;		//If set to 1, goggles from your profile will be used. If set to 0, _goggles will be added (or profile goggles will be removed when _goggles is left empty).
@@ -18,7 +18,7 @@ _goggles = ["rhs_googles_black","rhs_googles_clear","rhs_googles_yellow","rhs_go
 _primaryweapon = "rhs_weap_mk18_grip2_KAC";
 
 //primary weapon items - (array)
-_itemsPrimaryweapon = ["rhsusf_acc_SFMB556","rhsusf_acc_anpeq15","RH_eothhs1_tan"];
+_itemsPrimaryweapon = ["rhsusf_acc_SFMB556","rhsusf_acc_anpeq15","rhsusf_acc_SpecterDR_OD","rhsusf_acc_grip2_tan"];
 _silencer = "";		//if silencer is added
 
 //primary weapon ammo (if a primary weapon is given) and how many tracer mags - (integer)

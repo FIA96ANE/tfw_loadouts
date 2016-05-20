@@ -50,6 +50,7 @@ lbClear _comboBox;
 "Schütze (M136)",
 "Spotter",
 "Scharfschütze (XM2010)",
+"Scharfschütze (M107)",
 "Zugführer"
 ];
 
@@ -65,4 +66,5 @@ lbSetData [7377, 6, format["%1fn_ussf_schtz.sqf",_pfad]];
 lbSetData [7377, 7, format["%1fn_ussf_m136.sqf",_pfad]];
 lbSetData [7377, 8, format["%1fn_ussf_spotter.sqf",_pfad]];
 lbSetData [7377, 9, format["%1fn_ussf_xm2010.sqf",_pfad]];
-lbSetData [7377, 10, format["%1fn_ussf_zgfhr.sqf",_pfad]];
+lbSetData [7377, 10, format["%1fn_ussf_m107.sqf",_pfad]];
+lbSetData [7377, 11, format["%1fn_ussf_zgfhr.sqf",_pfad]];

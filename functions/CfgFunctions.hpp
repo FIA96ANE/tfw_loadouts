@@ -77,6 +77,7 @@ class ADV
 		class ussf_grpfhr {};
 		class ussf_m110 {};
 		class ussf_mg {};
+		class ussf_m107 {};
 		class ussf_m136 {};
 		class ussf_sani {};
 		class ussf_schtz {};

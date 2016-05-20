@@ -35,6 +35,7 @@ private [
 	"_bwtrop_base","_bwtrop_grpfhr","_bwtrop_mg4","_bwtrop_mg5","_bwtrop_grpschrfg28","_bwtrop_grpschrfg3","_bwtrop_sani","_bwtrop_eod","_bwtrop_helitiger_pilot","_bwtrop_pzfst","_bwtrop_rgw90","_bwtrop_schtz","_bwtrop_off","_bwtrop_zgfhr",
 	"_uk_base",
 	"_ussf_eod","_ussf_gren","_ussf_grpfhr","_ussf_m110","_ussf_mg","_ussf_m136","_ussf_sani","_ussf_schtz","_ussf_spotter","_ussf_xm2010",
+	"_ussf_m107",
 	"_usocp_eod","_usocp_jav","_usocp_grpfhr","_usocp_gren","_usocp_m14","_usocp_m136","_usocp_m249","_usocp_m240","_usocp_sani","_usocp_schtz","_usocp_off","_usocp_zgfhr",
 	//US Marine Corps
 	"_usmarines_base",
@@ -106,6 +107,7 @@ _ussf_eod = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","ussf_eod_",_x
 _ussf_grpfhr = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","ussf_grpfhr_",_x];_ussf_grpfhr pushback _newGuy};
 _ussf_m110 = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","ussf_m110_",_x];_ussf_m110 pushback _newGuy};
 _ussf_mg = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","ussf_mg_",_x];_ussf_mg pushback _newGuy};
+_ussf_m107 = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","ussf_m107_",_x];_ussf_m107 pushback _newGuy};
 _ussf_m136 = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","ussf_m136_",_x];_ussf_m136 pushback _newGuy};
 _ussf_sani = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","ussf_sani_",_x];_ussf_sani pushback _newGuy};
 _ussf_schtz = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","ussf_schtz_",_x];_ussf_schtz pushback _newGuy};
@@ -199,16 +201,21 @@ _playerUnit = switch true do {
 	case (_object in _bwtrop_off): {"ADV_fnc_bwtrop_off"};
 	case (_object in _bwtrop_zgfhr): {"ADV_fnc_bwtrop_zgfhr"};
 	case (_object in _uk_base): {"ADV_fnc_uk_base"};
+	
+	//US Special Forces
 	case (_object in _ussf_eod): {"ADV_fnc_ussf_eod"};
 	case (_object in _ussf_gren): {"ADV_fnc_ussf_gren"};
 	case (_object in _ussf_grpfhr): {"ADV_fnc_ussf_grpfhr"};
 	case (_object in _ussf_m110): {"ADV_fnc_ussf_m110"};
 	case (_object in _ussf_mg): {"ADV_fnc_ussf_mg"};
+	case (_object in _ussf_m107): {"ADV_fnc_ussf_m107"};
 	case (_object in _ussf_m136): {"ADV_fnc_ussf_m136"};
 	case (_object in _ussf_sani): {"ADV_fnc_ussf_sani"};
 	case (_object in _ussf_schtz): {"ADV_fnc_ussf_schtz"};
 	case (_object in _ussf_spotter): {"ADV_fnc_ussf_spotter"};
 	case (_object in _ussf_xm2010): {"ADV_fnc_ussf_xm2010"};
+	
+	//US Army OCP
 	case (_object in _usocp_eod): {"ADV_fnc_usocp_eod"};
 	case (_object in _usocp_grpfhr): {"ADV_fnc_usocp_grpfhr"};
 	case (_object in _usocp_jav): {"ADV_fnc_usocp_jav"};
