@@ -55,6 +55,7 @@ lbClear _comboBox;
 "M240 Schütze Mun", //5
 "M249 Schütze Mun",
 "Marksman (M14 EBR)",
+"Officer",
 "Platoon Leader",
 "Pilot",
 "Schütze",
@@ -83,12 +84,13 @@ lbSetData [7377, 11, format["%1fn_usmarines_m249.sqf",_pfad]];
 lbSetData [7377, 12, format["%1fn_usmarines_munm240.sqf",_pfad]];
 lbSetData [7377, 13, format["%1fn_usmarines_munm249.sqf",_pfad]];
 lbSetData [7377, 14, format["%1fn_usmarines_marksm.sqf",_pfad]];
-lbSetData [7377, 15, format["%1fn_usmarines_pl.sqf",_pfad]];
-lbSetData [7377, 16, format["%1fn_usmarines_pilot.sqf",_pfad]];
-lbSetData [7377, 17, format["%1fn_usmarines_schtz.sqf",_pfad]];
-lbSetData [7377, 18, format["%1fn_usmarines_schtzjav.sqf",_pfad]];
-lbSetData [7377, 19, format["%1fn_usmarines_schtzjavmun.sqf",_pfad]];
-lbSetData [7377, 20, format["%1fn_usmarines_schtzsmaw.sqf",_pfad]];
-lbSetData [7377, 21, format["%1fn_usmarines_schtzsmawmun.sqf",_pfad]];
-lbSetData [7377, 22, format["%1fn_usmarines_sl.sqf",_pfad]];
-lbSetData [7377, 23, format["%1fn_usmarines_tl.sqf",_pfad]];
+lbSetData [7377, 15, format["%1fn_usmarines_off.sqf",_pfad]];
+lbSetData [7377, 16, format["%1fn_usmarines_pl.sqf",_pfad]];
+lbSetData [7377, 17, format["%1fn_usmarines_pilot.sqf",_pfad]];
+lbSetData [7377, 18, format["%1fn_usmarines_schtz.sqf",_pfad]];
+lbSetData [7377, 19, format["%1fn_usmarines_schtzjav.sqf",_pfad]];
+lbSetData [7377, 20, format["%1fn_usmarines_schtzjavmun.sqf",_pfad]];
+lbSetData [7377, 21, format["%1fn_usmarines_schtzsmaw.sqf",_pfad]];
+lbSetData [7377, 22, format["%1fn_usmarines_schtzsmawmun.sqf",_pfad]];
+lbSetData [7377, 23, format["%1fn_usmarines_sl.sqf",_pfad]];
+lbSetData [7377, 24, format["%1fn_usmarines_tl.sqf",_pfad]];

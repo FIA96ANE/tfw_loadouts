@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=578;
+		nextID=603;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5600.6426,38.057297,7741.8828};
-		dir[]={0.10769858,-0.99368721,0.031737808};
-		up[]={0.9531644,0.11213794,0.28088909};
-		aside[]={0.28267464,-3.259629e-008,-0.9592241};
+		pos[]={5620.9023,59.81776,7712.8784};
+		dir[]={-0.00014914521,-0.99994999,-0.009998668};
+		up[]={-0.014914103,0.00999978,-0.99983877};
+		aside[]={-0.99988878,0,0.014914849};
 	};
 };
 binarizationWanted=0;
@@ -28,7 +28,8 @@ addons[]=
 	"A3_Supplies_F_Heli_CargoNets",
 	"A3_Data_F_Curator_Characters",
 	"A3_Modules_F_Curator_Curator",
-	"ace_medical"
+	"ace_medical",
+	"cup_misc_e_config"
 };
 randomSeed=9311617;
 class ScenarioData
@@ -83,7 +84,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=40;
+		items=41;
 		class Item0
 		{
 			dataType="Marker";
@@ -9972,6 +9973,46 @@ class Mission
 					};
 				};
 				nAttributes=2;
+			};
+		};
+		class Item40
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5633.6694,6.3602462,7719.4331};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="clearMagazineCargoGlobal this; clearWeaponCargoGlobal this;  clearItemCargoGlobal this; clearBackpackCargoGlobal this; this addAction [""<t size='1.2' color='#FF8000'>USMC-D Ausrüstung</t>"", {createDialog ""usmarines_dLoadoutDialog"";},nil,3,false,true,"""",""player distance cursortarget <5""];";
+				name="usmarines_d_crate_1";
+			};
+			id=580;
+			type="AmmoCrates_NoInteractive_Large";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
 			};
 		};
 	};

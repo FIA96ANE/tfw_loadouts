@@ -26,6 +26,7 @@ enableDebugConsole = 1;
 #include "functions\gui\usocp\usocpLoadoutDialog.hpp"
 #include "functions\gui\ussf\ussfLoadoutDialog.hpp"
 #include "functions\gui\usmarines\usmarinesLoadoutDialog.hpp"
+#include "functions\gui\usmarines_d\usmarinesLoadoutDialog.hpp"
 #include "taw_vd\dialog.hpp"
 
 /* ================ Funktionen =============== */

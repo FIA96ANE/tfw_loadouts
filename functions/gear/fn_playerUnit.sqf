@@ -53,6 +53,7 @@ private [
 	"_usmarines_munm240",
 	"_usmarines_munm249",
 	"_usmarines_marksm",
+	"_usmarines_off",
 	"_usmarines_pl",
 	"_usmarines_pilot",
 	"_usmarines_schtz",
@@ -61,7 +62,34 @@ private [
 	"_usmarines_schtzsmaw",
 	"_usmarines_schtzsmawmun",
 	"_usmarines_sl",
-	"_usmarines_tl"];
+	"_usmarines_tl",
+	
+	//US Marine Corps Desert
+	"_usmarines_d_base",
+	"_usmarines_d_corpsman",
+	"_usmarines_d_crew",
+	"_usmarines_d_eng",
+	"_usmarines_d_eod",
+	"_usmarines_d_gren",
+	"_usmarines_d_helipilot",
+	"_usmarines_d_jfo",
+	"_usmarines_d_m27",
+	"_usmarines_d_m136",
+	"_usmarines_d_m240",
+	"_usmarines_d_m249",
+	"_usmarines_d_munm240",
+	"_usmarines_d_munm249",
+	"_usmarines_d_marksm",
+	"_usmarines_d_off",
+	"_usmarines_d_pl",
+	"_usmarines_d_pilot",
+	"_usmarines_d_schtz",
+	"_usmarines_d_schtzjav",
+	"_usmarines_d_schtzjavmun",
+	"_usmarines_d_schtzsmaw",
+	"_usmarines_d_schtzsmawmun",
+	"_usmarines_d_sl",
+	"_usmarines_d_tl"];
 
 // insert names of new units here in their correspondent classes:
 _bwfleck_base = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","bwfleck_base_",_x];_bwfleck_base pushback _newGuy};
@@ -143,6 +171,7 @@ _usmarines_m249= [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarine
 _usmarines_munm240= [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_munm240_",_x];_usmarines_munm240 pushback _newGuy};
 _usmarines_munm249= [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_munm249_",_x];_usmarines_munm249 pushback _newGuy};
 _usmarines_marksm= [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_marksm_",_x];_usmarines_marksm pushback _newGuy};
+_usmarines_off= [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_off_",_x];_usmarines_off pushback _newGuy};
 _usmarines_pl= [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_pl_",_x];_usmarines_pl pushback _newGuy};
 _usmarines_pilot= [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_pilot_",_x];_usmarines_pilot pushback _newGuy};
 _usmarines_schtz = [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_schtz_",_x];_usmarines_schtz pushback _newGuy};
@@ -153,6 +182,32 @@ _usmarines_schtzsmawmun = [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2",
 _usmarines_sl = [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_sl_",_x];_usmarines_sl pushback _newGuy};
 _usmarines_tl = [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_tl_",_x];_usmarines_tl pushback _newGuy};
 
+// ###### US MARINE CORPS DESERT######
+_usmarines_d_base= [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_d_base_",_x];_usmarines_d_base pushback _newGuy};
+_usmarines_d_corpsman= [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_d_corpsman_",_x];_usmarines_d_corpsman pushback _newGuy};
+_usmarines_d_crew= [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_d_crew_",_x];_usmarines_d_crew pushback _newGuy};
+_usmarines_d_eng= [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_d_eng_",_x];_usmarines_d_eng pushback _newGuy};
+_usmarines_d_eod= [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_d_eod_",_x];_usmarines_d_eod pushback _newGuy};
+_usmarines_d_gren= [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_d_gren_",_x];_usmarines_d_gren pushback _newGuy};
+_usmarines_d_helipilot= [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_d_helipilot_",_x];_usmarines_d_helipilot pushback _newGuy};
+_usmarines_d_jfo= [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_d_jfo_",_x];_usmarines_d_jfo pushback _newGuy};
+_usmarines_d_m27= [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_d_m27_",_x];_usmarines_d_m27 pushback _newGuy};
+_usmarines_d_m136= [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_d_m136_",_x];_usmarines_d_m136 pushback _newGuy};
+_usmarines_d_m240= [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_d_m240_",_x];_usmarines_d_m240 pushback _newGuy};
+_usmarines_d_m249= [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_d_m249_",_x];_usmarines_d_m249 pushback _newGuy};
+_usmarines_d_munm240= [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_d_munm240_",_x];_usmarines_d_munm240 pushback _newGuy};
+_usmarines_d_munm249= [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_d_munm249_",_x];_usmarines_d_munm249 pushback _newGuy};
+_usmarines_d_marksm= [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_d_marksm_",_x];_usmarines_d_marksm pushback _newGuy};
+_usmarines_d_off= [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_d_off_",_x];_usmarines_d_off pushback _newGuy};
+_usmarines_d_pl= [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_d_pl_",_x];_usmarines_d_pl pushback _newGuy};
+_usmarines_d_pilot= [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_d_pilot_",_x];_usmarines_d_pilot pushback _newGuy};
+_usmarines_d_schtz = [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_d_schtz_",_x];_usmarines_d_schtz pushback _newGuy};
+_usmarines_d_schtzjav = [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_d_schtzjav_",_x];_usmarines_d_schtzjav pushback _newGuy};
+_usmarines_d_schtzjavmun = [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_d_schtzjavmun_",_x];_usmarines_d_schtzjavmun pushback _newGuy};
+_usmarines_d_schtzsmaw = [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_d_schtzsmaw_",_x];_usmarines_d_schtzsmaw pushback _newGuy};
+_usmarines_d_schtzsmawmun = [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_d_schtzsmawmun_",_x];_usmarines_d_schtzsmawmun pushback _newGuy};
+_usmarines_d_sl = [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_d_sl_",_x];_usmarines_d_sl pushback _newGuy};
+_usmarines_d_tl = [];for "_x" from 1 to 50 do {_newGuy = format ["%1%2","usmarines_d_tl_",_x];_usmarines_d_tl pushback _newGuy};
 
 _zeus = ["z1","z2","z3","z4","z5"];
 
@@ -245,6 +300,7 @@ _playerUnit = switch true do {
 	case (_object in _usmarines_munm240): {"ADV_fnc_usmarines_munm240"};
 	case (_object in _usmarines_munm249): {"ADV_fnc_usmarines_munm249"};
 	case (_object in _usmarines_marksm): {"ADV_fnc_usmarines_marksm"};
+	case (_object in _usmarines_off): {"ADV_fnc_usmarines_off"};
 	case (_object in _usmarines_pl): {"ADV_fnc_usmarines_pl"};
 	case (_object in _usmarines_pilot): {"ADV_fnc_usmarines_pilot"};
 	case (_object in _usmarines_schtz): {"ADV_fnc_usmarines_schtz"};
@@ -254,6 +310,33 @@ _playerUnit = switch true do {
 	case (_object in _usmarines_schtzsmawmun): {"ADV_fnc_usmarines_schtzsmawmun"};
 	case (_object in _usmarines_sl): {"ADV_fnc_usmarines_sl"};
 	case (_object in _usmarines_tl): {"ADV_fnc_usmarines_tl"};
+	
+	//US MARINE CORPS DESERT
+	case (_object in _usmarines_d_base): {"ADV_fnc_usmarines_d_base"};
+	case (_object in _usmarines_d_corpsman): {"ADV_fnc_usmarines_d_corpsman"};
+	case (_object in _usmarines_d_crew): {"ADV_fnc_usmarines_d_crew"};
+	case (_object in _usmarines_d_eng): {"ADV_fnc_usmarines_d_eng"};
+	case (_object in _usmarines_d_eod): {"ADV_fnc_usmarines_d_eod"};
+	case (_object in _usmarines_d_gren): {"ADV_fnc_usmarines_d_gren"};
+	case (_object in _usmarines_d_helipilot): {"ADV_fnc_usmarines_d_helipilot"};
+	case (_object in _usmarines_d_jfo): {"ADV_fnc_usmarines_d_jfo"};
+	case (_object in _usmarines_d_m27): {"ADV_fnc_usmarines_d_m27"};
+	case (_object in _usmarines_d_m136): {"ADV_fnc_usmarines_d_m136"};
+	case (_object in _usmarines_d_m240): {"ADV_fnc_usmarines_d_m240"};
+	case (_object in _usmarines_d_m249): {"ADV_fnc_usmarines_d_m249"};
+	case (_object in _usmarines_d_munm240): {"ADV_fnc_usmarines_d_munm240"};
+	case (_object in _usmarines_d_munm249): {"ADV_fnc_usmarines_d_munm249"};
+	case (_object in _usmarines_d_marksm): {"ADV_fnc_usmarines_d_marksm"};
+	case (_object in _usmarines_d_off): {"ADV_fnc_usmarines_d_off"};
+	case (_object in _usmarines_d_pl): {"ADV_fnc_usmarines_d_pl"};
+	case (_object in _usmarines_d_pilot): {"ADV_fnc_usmarines_d_pilot"};
+	case (_object in _usmarines_d_schtz): {"ADV_fnc_usmarines_d_schtz"};
+	case (_object in _usmarines_d_schtzjav): {"ADV_fnc_usmarines_d_schtzjav"};
+	case (_object in _usmarines_d_schtzjavmun): {"ADV_fnc_usmarines_d_schtzjavmun"};
+	case (_object in _usmarines_d_schtzsmaw): {"ADV_fnc_usmarines_d_schtzsmaw"};
+	case (_object in _usmarines_d_schtzsmawmun): {"ADV_fnc_usmarines_d_schtzsmawmun"};
+	case (_object in _usmarines_d_sl): {"ADV_fnc_usmarines_d_sl"};
+	case (_object in _usmarines_d_tl): {"ADV_fnc_usmarines_d_tl"};
 	default {"ADV_fnc_nil"};
 };
 

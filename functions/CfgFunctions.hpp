@@ -153,6 +153,7 @@ class ADV
 		class usmarines_munm240{};
 		class usmarines_munm249{};
 		class usmarines_marksm{};
+		class usmarines_off{};
 		class usmarines_pl{};
 		class usmarines_pilot{};
 		class usmarines_schtz{};
@@ -162,6 +163,35 @@ class ADV
 		class usmarines_schtzsmawmun{};
 		class usmarines_sl{};
 		class usmarines_tl{};
+	};
+	class loadouts_usmarines_d //US Marines Desert
+	{
+		file = "functions\loadouts\usmarines_d";
+		class usmarines_d_base {};
+		class usmarines_d_corpsman {};
+		class usmarines_d_crew {};
+		class usmarines_d_eng {};
+		class usmarines_d_eod {};
+		class usmarines_d_gren {};
+		class usmarines_d_helipilot{};
+		class usmarines_d_jfo{};
+		class usmarines_d_m27{};
+		class usmarines_d_m136{};
+		class usmarines_d_m240{};
+		class usmarines_d_m249{};
+		class usmarines_d_munm240{};
+		class usmarines_d_munm249{};
+		class usmarines_d_marksm{};
+		class usmarines_d_off{};
+		class usmarines_d_pl{};
+		class usmarines_d_pilot{};
+		class usmarines_d_schtz{};
+		class usmarines_d_schtzjav{};
+		class usmarines_d_schtzjavmun{};
+		class usmarines_d_schtzsmaw{};
+		class usmarines_d_schtzsmawmun{};
+		class usmarines_d_sl{};
+		class usmarines_d_tl{};
 	};
 };
 	class aeroson
