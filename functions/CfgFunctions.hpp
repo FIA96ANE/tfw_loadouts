@@ -33,8 +33,10 @@ class ADV
 		class bwtrop_grpschrfg3 {};
 		class bwtrop_helitiger_pilot {};
 		class bwtrop_jfo {};
+		class bwtrop_mg3 {};
 		class bwtrop_mg4 {};
 		class bwtrop_mg5 {};
+		class bwtrop_munmg3 {};
 		class bwtrop_munmg4 {};
 		class bwtrop_munmg5 {};
 		class bwtrop_pzfst {};
@@ -57,8 +59,10 @@ class ADV
 		class bwfleck_grpschrfg3 {};
 		class bwfleck_helitiger_pilot {};
 		class bwfleck_jfo {};
+		class bwfleck_mg3 {};
 		class bwfleck_mg4 {};
 		class bwfleck_mg5 {};
+		class bwfleck_munmg3 {};
 		class bwfleck_munmg4 {};
 		class bwfleck_munmg5 {};
 		class bwfleck_pzfst {};

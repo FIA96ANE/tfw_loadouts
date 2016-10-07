@@ -15,14 +15,14 @@ _useProfileGoggles = 0;		//If set to 1, goggles from your profile will be used. 
 _goggles = ["rhs_googles_black","rhs_googles_clear","rhs_googles_yellow","rhs_googles_orange",""];
 
 //weapons - primary weapon - (string)
-_primaryweapon = ["UK3CB_BAF_L115A3_Desert","UK3CB_BAF_L115A3"];
+_primaryweapon = ["UK3CB_BAF_L115A3","UK3CB_BAF_L115A3"];
 
 //primary weapon items - (array)
 _itemsPrimaryweapon = ["UK3CB_BAF_L115A3_Silencer","RKSL_optic_PMII_312_sunshade"];
 _silencer = "";		//if silencer is added
 
 //primary weapon ammo (if a primary weapon is given) and how many tracer mags - (integer)
-_primaryweaponAmmo = [14,"UK3CB_BAF_L115A3_Mag"];		//first number: Amount of magazines, second number: config index of magazine or classname of magazine type.
+_primaryweaponAmmo = [14,"UK3CB_BAF_338_5Rnd"];		//first number: Amount of magazines, second number: config index of magazine or classname of magazine type.
 //_additionalAmmo = [0,0]; //additional ammo classes up to 3: _additionalAmmo2 /_additionalAmmo3
 
 //40mm Grenades - (integer)

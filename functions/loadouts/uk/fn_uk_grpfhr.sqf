@@ -22,8 +22,8 @@ _itemsPrimaryweapon = ["RKSL_optic_LDS","UK3CB_BAF_LLM_Flashlight","UK3CB_BAF_sf
 _silencer = "";		//if silencer is added
 
 //primary weapon ammo (if a primary weapon is given) and how many tracer mags - (integer)
-_primaryweaponAmmo = [9,"UK3CB_BAF_30Rnd"];		//first number: Amount of magazines, second number: config index of magazine or classname of magazine type.
-_additionalAmmo = [2,"UK3CB_BAF_30Rnd_T"]; //additional ammo classes up to 3: _additionalAmmo2 /_additionalAmmo3
+_primaryweaponAmmo = [9,"UK3CB_BAF_556_30Rnd"];		//first number: Amount of magazines, second number: config index of magazine or classname of magazine type.
+_additionalAmmo = [2,"UK3CB_BAF_556_30Rnd_T"]; //additional ammo classes up to 3: _additionalAmmo2 /_additionalAmmo3
 
 //40mm Grenades - (integer)
 _40mmHeGrenadesAmmo = 0;	

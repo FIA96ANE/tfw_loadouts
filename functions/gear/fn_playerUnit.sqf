@@ -20,8 +20,10 @@ private [
 	"_bwfleck_grpschrfg3",
 	"_bwfleck_helitiger_pilot",
 	"_bwfleck_jfo",
+	"_bwfleck_mg3",
 	"_bwfleck_mg4",
 	"_bwfleck_mg5",
+	"_bwfleck_munmg3",
 	"_bwfleck_munmg4",
 	"_bwfleck_munmg5",
 	"_bwfleck_pzfst",
@@ -32,7 +34,24 @@ private [
 	"_bwfleck_pio",
 	"_bwfleck_zgfhr",
 	"_bwtrop_crew",
-	"_bwtrop_base","_bwtrop_grpfhr","_bwtrop_mg4","_bwtrop_mg5","_bwtrop_grpschrfg28","_bwtrop_grpschrfg3","_bwtrop_sani","_bwtrop_eod","_bwtrop_helitiger_pilot","_bwtrop_pzfst","_bwtrop_rgw90","_bwtrop_schtz","_bwtrop_off","_bwtrop_zgfhr",
+	"_bwtrop_base",
+	"_bwtrop_grpfhr",
+	"_bwtrop_mg3",
+	"_bwtrop_mg4",
+	"_bwtrop_mg5",
+	"_bwtrop_munmg3",
+	"_bwtrop_munmg4",
+	"_bwtrop_munmg5",
+	"_bwtrop_grpschrfg28",
+	"_bwtrop_grpschrfg3",
+	"_bwtrop_sani",
+	"_bwtrop_eod",
+	"_bwtrop_helitiger_pilot",
+	"_bwtrop_pzfst",
+	"_bwtrop_rgw90",
+	"_bwtrop_schtz",
+	"_bwtrop_off",
+	"_bwtrop_zgfhr",
 	"_uk_base",
 	"_ussf_eod","_ussf_gren","_ussf_grpfhr","_ussf_m110","_ussf_mg","_ussf_m136","_ussf_sani","_ussf_schtz","_ussf_spotter","_ussf_xm2010",
 	"_ussf_m107",
@@ -102,8 +121,10 @@ _bwfleck_grpschrfg28 = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","bw
 _bwfleck_grpschrfg3 = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","bwfleck_grpschrfg3_",_x];_bwfleck_grpschrfg3 pushback _newGuy};
 _bwfleck_helitiger_pilot = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","bwfleck_helitiger_pilot_",_x];_bwfleck_helitiger_pilot pushback _newGuy};
 _bwfleck_jfo = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","bwfleck_jfo_",_x];_bwfleck_jfo pushback _newGuy};
+_bwfleck_mg3 = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","bwfleck_mg3_",_x];_bwfleck_mg3 pushback _newGuy};
 _bwfleck_mg4 = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","bwfleck_mg4_",_x];_bwfleck_mg4 pushback _newGuy};
 _bwfleck_mg5 = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","bwfleck_mg5_",_x];_bwfleck_mg5 pushback _newGuy};
+_bwfleck_munmg3 = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","bwfleck_munmg3_",_x];_bwfleck_munmg3 pushback _newGuy};
 _bwfleck_munmg4 = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","bwfleck_munmg4_",_x];_bwfleck_munmg4 pushback _newGuy};
 _bwfleck_munmg5 = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","bwfleck_munmg5_",_x];_bwfleck_munmg5 pushback _newGuy};
 _bwfleck_sani = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","bwfleck_sani_",_x];_bwfleck_sani pushback _newGuy};
@@ -118,8 +139,12 @@ _bwfleck_zgfhr = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","bwfleck_
 _bwtrop_base = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","bwtrop_base_",_x];_bwtrop_base pushback _newGuy};
 _bwtrop_crew = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","bwtrop_crew_",_x];_bwtrop_crew pushback _newGuy};
 _bwtrop_grpfhr = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","bwtrop_grpfhr_",_x];_bwtrop_grpfhr pushback _newGuy};
+_bwtrop_mg3 = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","bwtrop_mg3_",_x];_bwtrop_mg3 pushback _newGuy};
 _bwtrop_mg4 = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","bwtrop_mg4_",_x];_bwtrop_mg4 pushback _newGuy};
 _bwtrop_mg5 = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","bwtrop_mg5_",_x];_bwtrop_mg5 pushback _newGuy};
+_bwtrop_munmg3 = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","bwtrop_munmg3_",_x];_bwtrop_munmg3 pushback _newGuy};
+_bwtrop_munmg4 = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","bwtrop_munmg4_",_x];_bwtrop_munmg4 pushback _newGuy};
+_bwtrop_munmg5 = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","bwtrop_munmg5_",_x];_bwtrop_munmg5 pushback _newGuy};
 _bwtrop_grpschrfg28 = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","bwtrop_grpschrfg28_",_x];_bwtrop_grpschrfg28 pushback _newGuy};
 _bwtrop_grpschrfg3 = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","bwtrop_grpschrfg3_",_x];_bwtrop_grpschrfg3 pushback _newGuy};
 _bwtrop_sani = [];for "_x" from 1 to 30 do {_newGuy = format ["%1%2","bwtrop_sani_",_x];_bwtrop_sani pushback _newGuy};
@@ -228,8 +253,10 @@ _playerUnit = switch true do {
 	case (_object in _bwfleck_grpschrfg3): {"ADV_fnc_bwfleck_grpschrfg3"};
 	case (_object in _bwfleck_helitiger_pilot): {"ADV_fnc_bwfleck_helitiger_pilot"};
 	case (_object in _bwfleck_jfo): {"ADV_fnc_bwfleck_jfo"};
+	case (_object in _bwfleck_mg3): {"ADV_fnc_bwfleck_mg3"};
 	case (_object in _bwfleck_mg4): {"ADV_fnc_bwfleck_mg4"};
 	case (_object in _bwfleck_mg5): {"ADV_fnc_bwfleck_mg5"};
+	case (_object in _bwfleck_munmg3): {"ADV_fnc_bwfleck_munmg3"};
 	case (_object in _bwfleck_munmg4): {"ADV_fnc_bwfleck_munmg4"};
 	case (_object in _bwfleck_munmg5): {"ADV_fnc_bwfleck_munmg5"};
 	case (_object in _bwfleck_sani): {"ADV_fnc_bwfleck_sani"};
@@ -243,8 +270,12 @@ _playerUnit = switch true do {
 	case (_object in _bwtrop_base): {"ADV_fnc_bwtrop_base"};
 	case (_object in _bwtrop_crew): {"ADV_fnc_bwtrop_crew"};
 	case (_object in _bwtrop_grpfhr): {"ADV_fnc_bwtrop_grpfhr"};
+	case (_object in _bwtrop_mg3): {"ADV_fnc_bwtrop_mg3"};
 	case (_object in _bwtrop_mg4): {"ADV_fnc_bwtrop_mg4"};
 	case (_object in _bwtrop_mg5): {"ADV_fnc_bwtrop_mg5"};
+	case (_object in _bwtrop_munmg3): {"ADV_fnc_bwtrop_munmg3"};
+	case (_object in _bwtrop_munmg4): {"ADV_fnc_bwtrop_munmg4"};
+	case (_object in _bwtrop_munmg5): {"ADV_fnc_bwtrop_munmg5"};
 	case (_object in _bwtrop_grpschrfg28): {"ADV_fnc_bwtrop_grpschrfg28"};
 	case (_object in _bwtrop_grpschrfg3): {"ADV_fnc_bwtrop_grpschrfg3"};
 	case (_object in _bwtrop_sani): {"ADV_fnc_bwtrop_sani"};

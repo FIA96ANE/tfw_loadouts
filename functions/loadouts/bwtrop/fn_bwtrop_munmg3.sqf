@@ -6,23 +6,23 @@ magazines one for one in _items.
 */
 
 //clothing - (string)
-_uniform = ["UK3CB_BAF_U_CombatUniform_MTP_RM","UK3CB_BAF_U_CombatUniform_MTP_ShortSleeve_RM"];
-_vest = ["UK3CB_BAF_V_Osprey_Medic_A","UK3CB_BAF_V_Osprey_Medic_B","UK3CB_BAF_V_Osprey_Medic_C","UK3CB_BAF_V_Osprey_Medic_D"];
-_headgear = ["UK3CB_BAF_H_Mk7_Camo_A","UK3CB_BAF_H_Mk7_Camo_B","UK3CB_BAF_H_Mk7_Camo_C","UK3CB_BAF_H_Mk7_Camo_D","UK3CB_BAF_H_Mk7_Camo_E","UK3CB_BAF_H_Mk7_Camo_F","UK3CB_BAF_H_Mk7_Camo_ESS_A","UK3CB_BAF_H_Mk7_Camo_ESS_B","UK3CB_BAF_H_Mk7_Camo_ESS_C","UK3CB_BAF_H_Mk7_Camo_ESS_D","UK3CB_BAF_H_Mk7_Camo_CESS_A","UK3CB_BAF_H_Mk7_Camo_CESS_B","UK3CB_BAF_H_Mk7_Camo_CESS_C","UK3CB_BAF_H_Mk7_Camo_CESS_D","UK3CB_BAF_H_Mk7_Net_A","UK3CB_BAF_H_Mk7_Net_B","UK3CB_BAF_H_Mk7_Net_C","UK3CB_BAF_H_Mk7_Net_D","UK3CB_BAF_H_Mk7_Net_ESS_A","UK3CB_BAF_H_Mk7_Net_ESS_B","UK3CB_BAF_H_Mk7_Net_ESS_C","UK3CB_BAF_H_Mk7_Net_ESS_D","UK3CB_BAF_H_Mk7_Net_CESS_A","UK3CB_BAF_H_Mk7_Net_CESS_B","UK3CB_BAF_H_Mk7_Net_CESS_C","UK3CB_BAF_H_Mk7_Net_CESS_D","UK3CB_BAF_H_Mk7_Scrim_A","UK3CB_BAF_H_Mk7_Scrim_B","UK3CB_BAF_H_Mk7_Scrim_C","UK3CB_BAF_H_Mk7_Scrim_D","UK3CB_BAF_H_Mk7_Scrim_E","UK3CB_BAF_H_Mk7_Scrim_F","UK3CB_BAF_H_Mk7_Scrim_ESS_A","UK3CB_BAF_H_Mk7_Scrim_ESS_B","UK3CB_BAF_H_Mk7_Scrim_ESS_C"];
-_backpack = ["UK3CB_BAF_B_Bergen_MTP_Medic_H_A","UK3CB_BAF_B_Bergen_MTP_Medic_H_B","UK3CB_BAF_B_Bergen_MTP_Medic_L_A","UK3CB_BAF_B_Bergen_MTP_Medic_L_B"];
+_uniform = ["PBW_Uniform1_tropen","PBW_Uniform2_tropen","PBW_Uniform1H_tropen","PBW_Uniform3K_tropen","PBW_Uniform4K_tropen"];
+_vest = ["BWA3_Vest_Rifleman1_Tropen"];
+_headgear = ["PBW_Helm1_tropen_BO","PBW_Helm1_tropen_BOD","PBW_Helm1_tropen_BU","PBW_Helm1_tropen_BUD","PBW_Helm1_tropen_H","PBW_Helm1_tropen_HBO","PBW_Helm1_tropen_HBOD","PBW_Helm1_tropen_HBU","PBW_Helm1_tropen_HBUD"];
+_backpack = ["BWA3_PatrolPack_Tropen"];
 _insignium = "";
 _useProfileGoggles = 0;		//If set to 1, goggles from your profile will be used. If set to 0, _goggles will be added (or profile goggles will be removed when _goggles is left empty).
-_goggles = ["rhs_googles_black","rhs_googles_clear","rhs_googles_yellow","rhs_googles_orange",""];
+_goggles = ["rhs_googles_black","rhs_googles_clear","rhs_googles_yellow","rhs_googles_orange","PBW_shemagh_beige",""];
 
 //weapons - primary weapon - (string)
-_primaryweapon = ["UK3CB_BAF_L85A2_RIS","UK3CB_BAF_L85A2_RIS_AFG"];
+_primaryweapon = "BWA3_G36_equipped";
 
 //primary weapon items - (array)
-_itemsPrimaryweapon = ["RKSL_optic_LDS"];
+_itemsPrimaryweapon = [""];
 _silencer = "";		//if silencer is added
 
 //primary weapon ammo (if a primary weapon is given) and how many tracer mags - (integer)
-_primaryweaponAmmo = [9,"UK3CB_BAF_556_30Rnd"];		//first number: Amount of magazines, second number: config index of magazine or classname of magazine type.
+_primaryweaponAmmo = [10,0];		//first number: Amount of magazines, second number: config index of magazine or classname of magazine type.
 //_additionalAmmo = [0,0]; //additional ammo classes up to 3: _additionalAmmo2 /_additionalAmmo3
 
 //40mm Grenades - (integer)
@@ -45,14 +45,14 @@ _M4009Stun = 0;
 _M576Buckshot = 0;
 
 //weapons - handgun - (string)
-_handgun = "";
+_handgun = "BWA3_P8";
 
 //handgun items - (array)
 _itemsHandgun = [""];
 _handgunSilencer = "";		//if silencer is added
 
 //handgun ammo (if a handgun is given) - (integer)
-_handgunAmmo = [0,0];		//first number: Amount of magazines, second number: config index of magazine or classname of magazine type.
+_handgunAmmo = [3,0];		//first number: Amount of magazines, second number: config index of magazine or classname of magazine type.
 
 //weapons - launcher - (string)
 _launcher = "";
@@ -78,15 +78,19 @@ _chemlightGreen = 0;
 _chemlightBlue = 0;
 _IRgrenade = 0;
 _M14TH3 = 0;
-_M8HCWhite = 2;
-_M8HCGreen = 2;
+_M8HCWhite = 0;
+_M8HCGreen = 0;
 _M8HCPurple = 0;
 _M8HCRed = 0;
-_M8HCYellow = 1;
-_M67Frag = 2;
+_M8HCYellow = 0;
+_M67Frag = 0;
 _M7A3CS = 0;
 _MK84Stun = 0;
 _MK3A2Conc = 0;
+_DM25White = 2;
+_DM25Orange = 0;
+_DM25Yellow = 0;
+_DM51A1 = 2;
 
 //first aid kits and medi kits- (integer)
 _FirstAidKits = 0;
@@ -96,10 +100,10 @@ _MediKit = 0;		//if set to 1, a MediKit and all FirstAidKits will be added to th
 _itemsUniform = [];
 
 //items added specifically to vest: - (array)
-_itemsVest = [];
+_itemsVest = ["PBW_muetze1_tropen"];
 
 //items added specifically to Backpack: - (array)
-_itemsBackpack = ["UK3CB_BAF_HMNVS","UK3CB_BAF_H_Beret_RM_Bootneck_PRR"];
+_itemsBackpack = ["hlc_100Rnd_762x51_M_MG3","hlc_100Rnd_762x51_M_MG3","hlc_100Rnd_762x51_M_MG3","hlc_100Rnd_762x51_M_MG3","hlc_100Rnd_762x51_M_MG3","dsk_nsv"];
 
 //linked items (don't put "ItemRadio" in here, as it's set with _equipRadio) - (array)
 _itemsLink = [
@@ -125,32 +129,32 @@ if (missionNamespace getVariable ["ADV_par_isTvT",false]) then {
 _ACREradios = ["ACRE_PRC343"];	//_this select 0=shortrange radio;_this select 1=leader radio;_this select 2=backpackRadio;
 //TFAR items
 _givePersonalRadio = true;
-_givePersonalRadioBW = false;
+_givePersonalRadioBW = true;
 _tfar_microdagr = 0;				//adds the tfar microdagr to set the channels for a rifleman radio
 
 //ACE items (if ACE is running on the server) - (integers)
 _ACE_EarPlugs = 1;
 
-_ACE_atropine = 6;
-_ACE_fieldDressing = 16;
-_ACE_elasticBandage = 16;
-_ACE_quikclot =16;
+_ACE_atropine = 0;
+_ACE_fieldDressing = 4;
+_ACE_elasticBandage = 2;
+_ACE_quikclot = 2;
 _ACE_bloodIV = 0;
 _ACE_bloodIV_500 = 0;
 _ACE_bloodIV_250 = 0;
 _ACE_bodyBag = 0;
-_ACE_epinephrine = 20;
-_ACE_morphine = 20;
-_ACE_packingBandage = 16;
-_ACE_personalAidKit = 1;
-_ACE_plasmaIV = 8;
+_ACE_epinephrine = 0;
+_ACE_morphine = 2;
+_ACE_packingBandage = 1;
+_ACE_personalAidKit = 0;
+_ACE_plasmaIV = 0;
 _ACE_plasmaIV_500 = 0;
 _ACE_plasmaIV_250 = 0;
 _ACE_salineIV = 0;
 _ACE_salineIV_500 = 0;
 _ACE_salineIV_250 = 0;
 _ACE_surgicalKit = 0;
-_ACE_tourniquet = 4;
+_ACE_tourniquet = 1;
 
 _ACE_SpareBarrel = 0;
 _ACE_UAVBattery = 0;
@@ -179,9 +183,9 @@ _ACE_HandFlare_White = 0;
 _ACE_HandFlare_Yellow = 0;
 
 //AGM Variables (if AGM is running) - (bool)
-_ACE_isMedic = 1;	//0 = no medic; 1 = medic; 2 = doctor;
+_ACE_isMedic = 0;	//0 = no medic; 1 = medic; 2 = doctor;
 _ACE_isEngineer = false;
-_ACE_isEOD = false;
+_ACE_isEOD = true;
 _ACE_isPilot = false;
 
 //Tablet-Items

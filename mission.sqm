@@ -16,20 +16,68 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5620.9023,59.81776,7712.8784};
-		dir[]={-0.00014914521,-0.99994999,-0.009998668};
-		up[]={-0.014914103,0.00999978,-0.99983877};
-		aside[]={-0.99988878,0,0.014914849};
+		pos[]={5624.5034,12.618941,7721.6235};
+		dir[]={0.11492443,-0.48136306,-0.86897063};
+		up[]={0.063131407,0.87643892,-0.47735533};
+		aside[]={-0.99137765,1.6763806e-008,-0.13111314};
 	};
 };
 binarizationWanted=0;
 addons[]=
 {
+	"A3_Ui_F",
 	"A3_Supplies_F_Heli_CargoNets",
 	"A3_Data_F_Curator_Characters",
 	"A3_Modules_F_Curator_Curator",
 	"ace_medical",
-	"cup_misc_e_config"
+	"CUP_Misc_e_Config"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=6;
+		class Item0
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item1
+		{
+			className="A3_Supplies_F_Heli";
+			name="Arma 3 Helicopters - Ammoboxes and Supplies";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item2
+		{
+			className="A3_Data_F_Curator";
+			name="Arma 3 Zeus Update - Main Configuration";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item3
+		{
+			className="A3_Modules_F_Curator";
+			name="Arma 3 Zeus Update - Scripted Modules";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item4
+		{
+			className="ace_medical";
+			name="ACE3 - Medical";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item5
+		{
+			className="CUP_Misc_e_Config";
+			name="CUP_Misc_e_Config";
+		};
+	};
 };
 randomSeed=9311617;
 class ScenarioData
@@ -271,7 +319,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=444;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 				};
 				class Item1
 				{
@@ -293,7 +341,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=445;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 				};
 				class Item2
 				{
@@ -315,7 +363,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=446;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -379,7 +427,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=447;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -695,7 +743,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=448;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -758,7 +806,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=449;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -821,7 +869,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=450;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -884,7 +932,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=451;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -947,7 +995,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=452;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1010,7 +1058,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=453;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1087,7 +1135,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=454;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1150,7 +1198,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=455;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1213,7 +1261,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=456;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1276,7 +1324,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=457;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1340,7 +1388,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=458;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1403,7 +1451,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=459;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1466,7 +1514,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=460;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1529,7 +1577,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=461;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1605,7 +1653,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=462;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1669,7 +1717,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=463;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1732,7 +1780,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=464;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1795,7 +1843,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=465;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1858,7 +1906,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=466;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1922,7 +1970,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=467;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1985,7 +2033,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=468;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2048,7 +2096,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=469;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2124,7 +2172,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=470;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2187,7 +2235,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=471;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2251,7 +2299,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=472;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2314,7 +2362,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=473;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2377,7 +2425,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=474;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2440,7 +2488,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=475;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2503,7 +2551,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=476;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2566,7 +2614,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=477;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2643,7 +2691,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=478;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2707,7 +2755,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=479;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2770,7 +2818,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=480;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2847,7 +2895,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=481;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2911,7 +2959,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=482;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2974,7 +3022,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=483;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3051,7 +3099,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=484;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3115,7 +3163,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=485;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3178,7 +3226,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=486;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3255,7 +3303,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=487;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3319,7 +3367,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=488;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3382,7 +3430,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=489;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3459,7 +3507,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=490;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3522,7 +3570,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=491;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3585,7 +3633,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=492;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3648,7 +3696,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=493;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3711,7 +3759,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=494;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3774,7 +3822,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=495;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3850,7 +3898,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=496;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3914,7 +3962,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=497;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3977,7 +4025,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=498;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -4040,7 +4088,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=499;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -4103,7 +4151,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=500;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -4166,7 +4214,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=501;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -4242,7 +4290,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=502;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -4305,7 +4353,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=503;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -4368,7 +4416,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=504;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -4432,7 +4480,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=505;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -4495,7 +4543,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=506;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -4558,7 +4606,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=507;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -4635,7 +4683,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=508;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -4698,7 +4746,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=509;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -4761,7 +4809,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=510;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -4824,7 +4872,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=511;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -4887,7 +4935,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=512;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -4950,7 +4998,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=513;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5027,7 +5075,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=514;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5091,7 +5139,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=515;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5155,7 +5203,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=516;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5232,7 +5280,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=517;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5296,7 +5344,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=518;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5360,7 +5408,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=519;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5437,7 +5485,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=520;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5501,7 +5549,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=521;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5565,7 +5613,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=522;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5642,7 +5690,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=523;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5706,7 +5754,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=524;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5770,7 +5818,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=525;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5847,7 +5895,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=526;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5911,7 +5959,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=527;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5975,7 +6023,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=528;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6052,7 +6100,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=529;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6116,7 +6164,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=530;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6180,7 +6228,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=531;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6244,7 +6292,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=532;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6308,7 +6356,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=533;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6372,7 +6420,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=534;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6449,7 +6497,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=535;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6513,7 +6561,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=536;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6577,7 +6625,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=537;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6641,7 +6689,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=538;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6705,7 +6753,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=539;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6769,7 +6817,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=540;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6846,7 +6894,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=541;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6910,7 +6958,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=542;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6974,7 +7022,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=543;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7038,7 +7086,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=544;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7102,7 +7150,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=545;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7166,7 +7214,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=546;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7463,7 +7511,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=547;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7527,7 +7575,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=548;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8144,7 +8192,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=549;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8207,7 +8255,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=550;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8270,7 +8318,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=551;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8332,7 +8380,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=552;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8408,7 +8456,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=553;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8470,7 +8518,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=554;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8532,7 +8580,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=555;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8594,7 +8642,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=556;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8657,7 +8705,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=557;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8719,7 +8767,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=558;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8781,7 +8829,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=559;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8843,7 +8891,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=560;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8919,7 +8967,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=561;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8981,7 +9029,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=562;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9043,7 +9091,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=563;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9105,7 +9153,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=564;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9168,7 +9216,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=565;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9230,7 +9278,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=566;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9292,7 +9340,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=567;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9354,7 +9402,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=568;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9430,7 +9478,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=569;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9492,7 +9540,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=570;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9554,7 +9602,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=571;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9616,7 +9664,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=572;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9679,7 +9727,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=573;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9741,7 +9789,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=574;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9803,7 +9851,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=575;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9865,7 +9913,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=576;
-					type="b_survivor_F";
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
